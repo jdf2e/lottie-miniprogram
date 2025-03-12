@@ -11,7 +11,7 @@
   "miniprogram": "miniprogram_dist",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wechat-miniprogram/lottie-miniprogram.git"
+    "url": "git+https://github.com/jdf2e/lottie-miniprogram.git"
   },
   "keywords": [
     "lottie",
@@ -20,9 +20,9 @@
   "author": "wechat-miniprogram",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wechat-miniprogram/lottie-miniprogram/issues"
+    "url": "https://github.com/jdf2e/lottie-miniprogram/issues"
   },
-  "homepage": "https://github.com/wechat-miniprogram/lottie-miniprogram#readme",
+  "homepage": "https://github.com/jdf2e/lottie-miniprogram#readme",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
