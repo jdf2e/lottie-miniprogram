@@ -1,4 +1,5 @@
 import XHR from './XMLHttpRequest'
+import getHost from './platform'
 
 function noop() {}
 
@@ -59,7 +60,7 @@ function wrapMethodFatory(ctx, methodName, wrappedMethod) {
   ctx[methodName] = wrappedMethod(ctx, originalMethod)
 }
 
-const systemInfo = wx.getSystemInfoSync()
+const systemInfo = getHost().getSystemInfoSync()
 const g = {
   requestAnimationFrame(cb) {
     setTimeout(() => {

@@ -1,3 +1,5 @@
+import getHost from './platform'
+
 const _url = new WeakMap()
 const _method = new WeakMap()
 const _requestHeader = new WeakMap()
@@ -85,7 +87,7 @@ export default class XMLHttpRequest {
     if (this.readyState !== XMLHttpRequest.OPENED) {
       throw new Error("Failed to execute 'send' on 'XMLHttpRequest': The object's state must be OPENED.")
     } else {
-      wx.request({
+      getHost().request({
         data,
         url: _url.get(this),
         method: _method.get(this),

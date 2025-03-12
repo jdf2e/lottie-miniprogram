@@ -17,11 +17,13 @@ module.exports = {
     'window': true,
     'document': true,
     'navigator': true,
-    'wx': true
+    'wx': true,
+    'jd': true
   },
   rules: {
     'no-console': process.env.NODE_ENV !== 'production' ? 0 : 2,
     'no-useless-escape': 0,
-    'no-empty': 0
+    'no-empty': 0,
+    'no-func-assign': 0
   }
 }

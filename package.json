@@ -1,6 +1,6 @@
 {
   "name": "lottie-miniprogram",
-  "version": "1.0.12",
+  "version": "1.0.0",
   "description": "lottie for miniprogram",
   "main": "miniprogram_dist/index.js",
   "scripts": {
@@ -34,7 +34,7 @@
     "string-replace-loader": "^2.2.0",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6",
-    "lottie-web": "^5.7.4",
+    "lottie-web": "5.5.7",
     "copy-webpack-plugin": "^6.0.3"
   }
 }
