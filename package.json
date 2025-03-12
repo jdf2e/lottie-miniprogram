@@ -1,5 +1,5 @@
 {
-  "name": "lottie-miniprogram",
+  "name": "@nutui/lottie-miniprogram",
   "version": "1.0.0",
   "description": "lottie for miniprogram",
   "main": "miniprogram_dist/index.js",
