@@ -1,5 +1,11 @@
 export default function getHost() {
-    let host = {}
+    let host = {
+        request: () => {
+        },
+        getSystemInfoSync: () => {
+            return {}
+        }
+    }
     if (typeof wx !== 'undefined') {
         host = wx
     }

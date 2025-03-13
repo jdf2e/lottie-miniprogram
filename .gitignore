@@ -5,3 +5,4 @@ dist
 miniprogram_dist
 
 .DS_Store
+.idea
